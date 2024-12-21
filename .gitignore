@@ -1,0 +1,60 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python files and directories
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Log files
+*.log
+logs/
+*.out
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv
+
+# Sensitive configuration files
+.env
+config.yaml
+settings.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# SQLite databases (if used)
+*.sqlite3
+*.db
+
+# pip cache
+pip-wheel-metadata/
+pip-log.txt
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Python tools
+.tox/
+.coverage
+htmlcov/
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Docker
+docker-compose.override.yml
+*.env
